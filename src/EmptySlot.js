@@ -14,8 +14,8 @@ function EmptySlot(props) {
 })
 
 return (
-    <div>
-        <img style={{'width': '30vw'}}
+  <div className="container">
+        <img style={{'width': '15vw'}}
         src={molehill} alt={'molehill'} />
     </div>
 )

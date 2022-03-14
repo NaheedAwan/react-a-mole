@@ -15,8 +15,8 @@ function Mole(props) {
     })
 
     return (
-        <div>
-            <img style={{'width': '30vw'}}
+        <div className="container">
+            <img style={{'width': '15vw'}}
             src={mole} alt={'mole'}
             onClick={props.handleClick} />
         </div>
