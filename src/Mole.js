@@ -6,12 +6,12 @@ function Mole(props) {
 
     useEffect(() => {
         // Random number of seconds
-        let randomSeconds = Math.ceil(Math.random() * 4000)
+        let randomSeconds = Math.floor(Math.random() * 5000)
         // Create timer to display randomly display mole
         let timer = setTimeout(() => {
-            props.setDisplayMole(false)
+            props.toggle(false)
         }, randomSeconds)
-        return (() =>{ clearTimeout(timer)})
+        return () => clearTimeout(timer)
     })
 
     return (

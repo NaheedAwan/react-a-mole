@@ -8,7 +8,7 @@ function App() {
   // Generate Molehill
   const createMoleHill = () => {
     let hills = []
-    for (let i = 0; i < 9; i++) {
+    for (let i = 0; i < 2; i++) {
       hills.push(
         <MoleContainer
           key={i}
